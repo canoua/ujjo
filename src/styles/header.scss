@@ -1,0 +1,57 @@
+@import './vars.scss';
+
+.header{
+
+  &-inner{
+    padding: 21px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #000;
+  }
+
+  &__logo{
+    margin: 0 30px;
+  }
+}
+
+.list{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__item{
+    padding: 15px 44px;
+
+    &_logo{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+
+  &__link{
+    font-size: 14px;
+    line-height: 132%;
+    color: #222;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    display: block;
+  }
+}
+
+.circle{
+  width: 17px;
+  height: 17px;
+  border: 1px solid #000;
+  border-radius: 100%;
+
+  &_red{
+    background-color: $red;
+  }
+
+  &_purple{
+    background-color: #8B83F6;
+  }
+}

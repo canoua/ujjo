@@ -1,0 +1,40 @@
+@import './vars.scss';
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-style: normal;
+}
+
+li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+.container{
+  width: 1397px;
+  margin: 0 auto;
+}
+
+.btn{
+  background-color: $red;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 21.6px;
+  letter-spacing: 0.5px;
+  padding: 15px 44px;
+  color: #fff;
+  text-transform: uppercase;
+  border: 1px solid $red;
+  cursor: pointer;
+}
