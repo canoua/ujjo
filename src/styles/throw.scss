@@ -1,0 +1,24 @@
+.throw{
+
+  &-inner{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 21px;
+    border: 1px solid #000;
+  }
+
+  &__title{
+    font-size: 65px;
+    line-height: 73px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #000000;
+  }
+}
+
+.scorpion_reverse{
+  transform: scale(-1, 1)
+}

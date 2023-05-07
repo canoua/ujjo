@@ -1,0 +1,47 @@
+.main{
+
+  &-inner{
+    display: flex;
+    width: 100%;
+    padding: 0 21px;
+    border: 1px solid #000;
+    border-top: 0;
+  }
+
+  &__box{
+    width: 50%;
+    border: 1px solid #000;
+
+    &__logo{
+      width: 100%;
+      box-sizing: border-box;
+      padding: 20px;
+      position: relative;
+    }
+
+    &__item{
+
+    }
+  }
+
+  &__title{
+    font-size: 58px;
+    line-height: 65px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #000000;
+    border: 1px solid #000;
+    border-top: none;
+    width: 100%;
+    text-align: center;
+    padding: 24px 80px;
+    box-sizing: border-box;
+  }
+}
+
+.logo-main2{
+  position: absolute;
+  left: 0;
+  top: 0;
+}
