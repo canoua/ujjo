@@ -1,14 +1,16 @@
 @import './vars.scss';
 
 .header{
+  width: 100%;
 
   &-inner{
+    box-sizing: border-box;
     padding: 21px;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid #000;
+    border-bottom: 1px solid #000;
   }
 
   &__logo{

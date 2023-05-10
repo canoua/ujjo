@@ -3,6 +3,7 @@
 *{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body{
@@ -37,4 +38,9 @@ a{
   text-transform: uppercase;
   border: 1px solid $red;
   cursor: pointer;
+}
+
+.border-wrapper{
+  border: 1px solid #000;
+  width: 100%;
 }

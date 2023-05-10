@@ -4,13 +4,12 @@
     display: flex;
     width: 100%;
     padding: 0 21px;
-    border: 1px solid #000;
+   
     border-top: 0;
   }
 
   &__box{
     width: 50%;
-    border: 1px solid #000;
 
     &__logo{
       width: 100%;
@@ -36,7 +35,7 @@
     width: 100%;
     text-align: center;
     padding: 24px 80px;
-    box-sizing: border-box;
+   
   }
 }
 
