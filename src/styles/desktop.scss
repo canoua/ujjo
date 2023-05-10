@@ -3,8 +3,6 @@
   &-inner{
     display: flex;
     width: 100%;
-    padding: 0 21px;
-   
     border-top: 0;
   }
 
@@ -19,7 +17,8 @@
     }
 
     &__item{
-
+      padding: 20px;
+      border-left: 1px solid #000;
     }
   }
 
@@ -32,15 +31,40 @@
     color: #000000;
     border: 1px solid #000;
     border-top: none;
+    border-right: none;
     width: 100%;
     text-align: center;
     padding: 24px 80px;
-   
   }
+}
+
+.logo-main{
+  width: 100%;
 }
 
 .logo-main2{
   position: absolute;
-  left: 0;
-  top: 0;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.ticker{
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+
+  &-inner{
+    padding: 23px 0 24px 0;
+    display: block;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  &__box{
+    display: inline-flex;
+    align-items: center;
+    white-space: nowrap;
+    flex-shrink: 0;
+    padding: 0 50px;
+  }
 }
