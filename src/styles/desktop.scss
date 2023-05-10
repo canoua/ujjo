@@ -19,6 +19,10 @@
     &__item{
       padding: 20px;
       border-left: 1px solid #000;
+
+      &_left{
+        border-left: none;
+      }
     }
   }
 
@@ -47,52 +51,4 @@
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-}
-
-.ticker{
-  border-top: 1px solid #000;
-  border-bottom: 1px solid #000;
-  
-  &:hover  &__box{
-    animation-play-state: paused;
-  }
-
-  &-inner{
-    padding: 23px 0 24px 0;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    overflow: hidden;
-  }
-
-  &__box{
-    display: flex;
-    align-items: center;
-    white-space: nowrap;
-    flex-shrink: 0;
-    animation: ticker 5s linear infinite;
-  }
-
-  &__text{
-    font-size: 17px;
-    line-height: 26px;
-    text-align: center;
-    letter-spacing: 0.5px;
-    text-transform: uppercase;
-    color: #000000;
-  }
-
-  &__image{
-    margin: 0 29px;
-  }
-}
-
-@keyframes ticker {
-  0% {
-    transform: translateZ(0);
-  }
-
-  to {
-    transform: translate3d(-100%, 0, 0);
-  }
 }

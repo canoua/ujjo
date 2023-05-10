@@ -38,6 +38,12 @@ a{
   text-transform: uppercase;
   border: 1px solid $red;
   cursor: pointer;
+  transition: .3s;
+
+  &:hover{
+    background-color: #fff;
+    color: $red;
+  }
 }
 
 .border-wrapper{
