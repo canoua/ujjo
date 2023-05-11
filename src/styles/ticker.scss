@@ -3,10 +3,13 @@
   border-bottom: 1px solid #000;
   z-index: -5;
 
+  &_1{
+    z-index: 1;
+  }
+
   &_put{
     border-top: none;
   }
-
   
   &:hover  &__box{
     animation-play-state: paused;
