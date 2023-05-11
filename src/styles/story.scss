@@ -1,0 +1,43 @@
+.story{
+
+  &-inner{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #000;
+  }
+
+  &__box{
+    width: 50%;
+
+    &_left{
+      display: flex;
+      flex-direction: column;
+      justify-content: end;
+      border-right: 1px solid #000;
+    }
+
+    &_right{
+      background-image: url('./../images/story-bg.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      text-align: center;
+      padding: 135px 155px;
+    }
+  }
+
+  &__title{
+    padding: 53px 54px 44px 54px;
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 65px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #000;
+    
+  }
+}
