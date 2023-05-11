@@ -1,10 +1,12 @@
 .ticker{
   border-top: 1px solid #000;
   border-bottom: 1px solid #000;
+  z-index: -5;
 
   &_put{
     border-top: none;
   }
+
   
   &:hover  &__box{
     animation-play-state: paused;
@@ -23,7 +25,11 @@
     align-items: center;
     white-space: nowrap;
     flex-shrink: 0;
-    animation: ticker 6s linear infinite;
+    animation: ticker 4s linear infinite;
+
+    &_download{
+      animation: ticker 7s linear infinite;
+    }
   }
 
   &__text{

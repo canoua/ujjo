@@ -10,6 +10,7 @@
   letter-spacing: 0.5px;
   text-transform: uppercase;
   color: #000;
+  border-top: 1px solid #000;
 
   &-inner{
   display: flex;
@@ -19,6 +20,10 @@
 
   &__address{
     font-style: normal;
+  }
+
+  &__social{
+    color: #000;
   }
 }
 
