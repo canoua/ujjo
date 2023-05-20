@@ -15,15 +15,13 @@
   padding-top: 129px;
   background-image: url('./../images/card-bg.png');
   background-repeat: no-repeat;
-  background-size: cover;
-  border-bottom: 1px solid #000;
+  background-size: contain;
   margin-right: 23px;
   position: relative;
   transition: transform .3s;
 
-  @media(max-width:1361px) {
-    background-size: contain;
-    border-bottom: none;
+  @media(max-width: 1316px) {
+    margin-right: 0;
   }
 
   &__image{

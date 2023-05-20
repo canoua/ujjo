@@ -47,6 +47,10 @@
     width: 100%;
     text-align: center;
     padding: 24px 80px;
+
+    @media(max-width: 1316px) {
+      font-size: 50px;
+    }
   }
 }
 
