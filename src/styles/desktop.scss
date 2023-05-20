@@ -25,6 +25,10 @@
       padding: 20px;
       border-left: 1px solid #000;
 
+      &__image{
+        width: 100%;
+      }
+
       &_left{
         border-left: none;
       }

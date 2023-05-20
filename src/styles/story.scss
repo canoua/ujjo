@@ -26,6 +26,10 @@
       align-items: center;
       text-align: center;
       padding: 135px 155px;
+
+      @media(max-width: 1361px) {
+        background-size: contain;
+      }
     }
   }
 
@@ -38,6 +42,5 @@
     letter-spacing: 0.5px;
     text-transform: uppercase;
     color: #000;
-    
   }
 }

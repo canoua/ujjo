@@ -23,6 +23,10 @@ a{
 .container{
   width: 1397px;
   margin: 0 auto;
+
+  @media(max-width: 1420px) {
+    width: 1300px;
+  }
 }
 
 .btn{
