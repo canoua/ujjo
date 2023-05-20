@@ -27,6 +27,10 @@
       font-size: 40px;
       line-height: 50px;
     }
+
+    @media(max-width: 1016px) {
+      font-size: 39px;
+    }
   }
 }
 

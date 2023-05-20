@@ -32,6 +32,10 @@
     padding-top: 60px;
   }
 
+  @media(max-width: 1016px) {
+    padding: 80px 15px 23px;
+  }
+
   &__image{
     width: 100%;
   }
@@ -56,6 +60,7 @@
   }
 
   &_2, &_3{
+
     &::after{
       content: '';
       position: absolute;
@@ -143,6 +148,11 @@
     letter-spacing: 0.5px;
     text-transform: uppercase;
     color: #000;
+
+    @media(max-width: 1016px) {
+      font-size: 21px;
+     line-height: 25px;
+    }
   }
 
   &__subtitle{

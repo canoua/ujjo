@@ -48,12 +48,21 @@
       @media(max-width: 1116px) {
         padding: 121px 109px;
       }
+
+      @media(max-width: 1016px) {
+        padding: 68px 85px;
+        background-size: 100% 100%;
+      }
     }
 
     &__text{
 
       @media(max-width: 1216px) {
         font-size: 14px;
+      }
+
+      @media(max-width: 1016px) {
+        font-size: 12px;
       }
     }
   }
@@ -75,6 +84,12 @@
 
     @media(max-width: 1216px) {
       padding: 24px;
+    }
+
+    @media(max-width: 1016px) {
+      font-size: 39px;
+      line-height: 50px;
+      padding: 11px;
     }
   }
 }
