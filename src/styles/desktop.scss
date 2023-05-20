@@ -4,6 +4,10 @@
     display: flex;
     width: 100%;
     border-top: 0;
+
+    @media(max-width: 767px) {
+      flex-direction: column;
+    }
   }
 
   &__box{
@@ -13,20 +17,41 @@
     flex-direction: column;
     justify-content: end;
     /**/
+
+    @media(max-width: 767px) {
+      width: 100%;
+    }
     
     &__logo{
       width: 100%;
       box-sizing: border-box;
       padding: 20px;
       position: relative;
+
+      @media(max-width: 767px) {
+        display: flex;
+        justify-content: center;
+      }
     }
 
     &__item{
       padding: 20px;
       border-left: 1px solid #000;
 
+      @media(max-width: 767px) {
+        border-left: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
       &__image{
         width: 100%;
+
+        @media(max-width: 767px) {
+          width: auto;
+          height: 464px;
+        }
       }
 
       &_left{
@@ -60,11 +85,26 @@
       padding: 8px 19px;
       font-size: 39px;
     }
+
+    @media(max-width: 927px) {
+      padding: 0px 16px;
+      font-size: 32px;
+      line-height: 61px;
+    }
+
+    @media(max-width: 767px) {
+      border-left: none;
+      border-top: 1px solid #000;
+    }
   }
 }
 
 .logo-main{
   width: 100%;
+
+  @media(max-width: 767px) {
+    width: 90%;
+  }
 }
 
 .logo-main2{

@@ -43,6 +43,18 @@ a{
   @media(max-width: 1016px) {
     width: 900px;
   }
+
+  @media(max-width: 927px) {
+    width: 830px;
+  }
+
+  @media(max-width: 850px) {
+    width: 750px;
+  }
+
+  @media(max-width: 767px) {
+    width: 700px;
+  }
 }
 
 .btn{

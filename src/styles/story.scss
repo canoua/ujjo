@@ -4,10 +4,18 @@
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid #000;
+
+    @media(max-width: 767px) {
+      flex-direction: column;
+    }
   }
 
   &__box{
     width: 50%;
+
+    @media(max-width: 767px) {
+      width: 100%;
+    }
 
     &_left{
       display: flex;
@@ -17,6 +25,10 @@
 
       @media(max-width: 1216px) {
         justify-content: initial;
+      }
+
+      @media(max-width: 767px) {
+        border-right: none;
       }
     }
 
@@ -53,6 +65,10 @@
         padding: 68px 85px;
         background-size: 100% 100%;
       }
+
+      @media(max-width: 767px) {
+        padding: 133px 155px;
+      }
     }
 
     &__text{
@@ -63,6 +79,10 @@
 
       @media(max-width: 1016px) {
         font-size: 12px;
+      }
+
+      @media(max-width: 767px) {
+        font-size: 18px;
       }
     }
   }

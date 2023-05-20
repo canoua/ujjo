@@ -8,6 +8,10 @@
     height: 569px;
   }
 
+  @media(max-width: 1016px) {
+    height: 457px;
+  }
+
   &::before{
     content: '';
     position: absolute;
@@ -40,6 +44,10 @@
     @media(max-width: 1116px) {
       height: 710px;
     }
+
+    @media(max-width: 927px) {
+      height: 590px;
+    }
   }
   
   &-inner{
@@ -54,6 +62,10 @@
 
 .footer__logo{
   z-index: 10;
+
+  @media(max-width: 927px) {
+    width: 72%;
+  }
 
   &-2{
     position: absolute;

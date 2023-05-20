@@ -21,6 +21,10 @@
     display: flex;
     align-items: center;
     overflow: hidden;
+
+    @media(max-width: 927px) {
+      padding: 14px 0 15px 0;
+    }
   }
 
   &__box{
