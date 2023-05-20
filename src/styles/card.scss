@@ -24,6 +24,10 @@
     margin-right: 0;
   }
 
+  @media(max-width: 1216px) {
+    padding-top: 75px;
+  }
+
   &__image{
     width: 100%;
   }
