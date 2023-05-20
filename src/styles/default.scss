@@ -55,6 +55,14 @@ a{
   @media(max-width: 767px) {
     width: 700px;
   }
+
+  @media(max-width: 717px) {
+    width: 650px;
+  }
+
+  @media(max-width: 667px) {
+    width: 600px;
+  }
 }
 
 .btn{
@@ -81,6 +89,10 @@ a{
     font-size: 14px;
     line-height: 17.6px;
     padding: 11px 31px;   
+  }
+
+  @media(max-width: 717px) {
+    padding: 11px;
   }
 }
 

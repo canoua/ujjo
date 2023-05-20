@@ -52,6 +52,10 @@
           width: auto;
           height: 464px;
         }
+
+        @media(max-width: 717px) {
+          width: 100%;
+        }
       }
 
       &_left{
@@ -95,6 +99,12 @@
     @media(max-width: 767px) {
       border-left: none;
       border-top: 1px solid #000;
+    }
+
+    @media(max-width: 717px) {
+      padding: 16px;
+      font-size: 31px;
+      line-height: 40px;
     }
   }
 }

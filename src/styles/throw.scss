@@ -35,6 +35,10 @@
     @media(max-width: 927px) {
       font-size: 30px;
     }
+
+    @media(max-width: 717px) {
+      font-size: 25px;
+    }
   }
 }
 
@@ -47,5 +51,9 @@
 
   @media(max-width: 1116px) {
     width: 150px;
+  }
+
+  @media(max-width: 717px) {
+    width: 120px;
   }
 }
