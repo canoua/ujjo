@@ -2,7 +2,11 @@
   position: relative;
   padding: 127px 0;
   height: 740px;
-   
+
+  @media(max-width: 1116px) {
+    padding: 0;
+    height: 569px;
+  }
 
   &::before{
     content: '';
@@ -32,6 +36,10 @@
     width: 100%;
     z-index: 0;
     pointer-events: none;
+
+    @media(max-width: 1116px) {
+      height: 710px;
+    }
   }
   
   &-inner{

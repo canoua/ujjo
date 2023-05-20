@@ -44,6 +44,10 @@
         padding: 103px 118px;
         justify-content: space-around;
       }
+
+      @media(max-width: 1116px) {
+        padding: 121px 109px;
+      }
     }
 
     &__text{

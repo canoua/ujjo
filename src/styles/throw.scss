@@ -22,9 +22,22 @@
       font-size: 50px;
       line-height: 62px;
     }
+
+    @media(max-width: 1116px) {
+      font-size: 40px;
+      line-height: 50px;
+    }
   }
 }
 
-.scorpion_reverse{
-  transform: scale(-1, 1)
+
+.scorpion{
+
+  &_reverse{
+    transform: scale(-1, 1)
+  }
+
+  @media(max-width: 1116px) {
+    width: 150px;
+  }
 }
