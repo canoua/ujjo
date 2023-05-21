@@ -12,6 +12,10 @@
     height: 457px;
   }
 
+  @media(max-width: 667px) {
+    height: 344px;
+  }
+
   &::before{
     content: '';
     position: absolute;
@@ -48,6 +52,10 @@
     @media(max-width: 927px) {
       height: 590px;
     }
+
+    @media(max-width: 667px) {
+      height: 440px;
+    }
   }
   
   &-inner{
@@ -73,5 +81,9 @@
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 10;
+
+    @media(max-width: 667px) {
+      width: 80%;
+    }
   }
 }

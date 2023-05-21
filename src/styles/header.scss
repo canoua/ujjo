@@ -15,6 +15,13 @@
     @media(max-width: 917px) {
       padding: 10px 20px;
     }
+
+    @media(max-width: 667px) {
+      display: grid;
+      grid-template-columns: repeat(1fr);
+      grid-row-end: 5;
+      justify-content: center;
+    }
   }
 
   &__logo{
@@ -23,6 +30,13 @@
     @media(max-width: 927px) {
       margin: 0 10px;
     }
+  }
+}
+
+.navigation{
+
+  @media(max-width: 667px) {
+    order: 3;
   }
 }
 
@@ -46,6 +60,10 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
+      
+      @media(max-width: 667px) {
+        display: none;
+      }
     }
   }
 

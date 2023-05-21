@@ -63,6 +63,10 @@ a{
   @media(max-width: 667px) {
     width: 600px;
   }
+
+  @media(max-width: 600px) {
+    width: 540px;
+  }
 }
 
 .btn{
@@ -83,6 +87,21 @@ a{
   &:hover{
     background-color: #fff;
     color: $red;
+  }
+
+  &-1{
+
+    @media(max-width: 667px) {
+      order: 1;
+      margin-bottom: 10px;
+    }
+  }
+
+  &-2{
+    @media(max-width: 667px) {
+      order: 2;
+      margin-bottom: 10px;
+    }
   }
 
   @media(max-width: 1116px) {
