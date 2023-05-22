@@ -111,5 +111,9 @@
       line-height: 50px;
       padding: 11px;
     }
+
+    @media(max-width: 667px) {
+      padding: 10px;
+    }
   }
 }

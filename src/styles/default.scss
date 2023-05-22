@@ -92,15 +92,18 @@ a{
   &-1{
 
     @media(max-width: 667px) {
-      order: 1;
-      margin-bottom: 10px;
+      order: 2;
+      grid-area: b;
+      margin-right: 10px;
     }
   }
 
   &-2{
+
     @media(max-width: 667px) {
-      order: 2;
-      margin-bottom: 10px;
+      order: 3;
+      grid-area: c;
+      margin-left: 10px;
     }
   }
 

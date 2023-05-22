@@ -2,6 +2,10 @@
   border-bottom: 1px solid #000;
   padding: 20px;
 
+  @media(max-width: 667px) {
+    padding: 10px;
+  }
+
   &-inner{
     display: flex;
     justify-content: space-between;

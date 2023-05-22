@@ -18,9 +18,9 @@
 
     @media(max-width: 667px) {
       display: grid;
-      grid-template-columns: repeat(1fr);
-      grid-row-end: 5;
+      grid-template-areas: "a a a" "b c c" "b c c";
       justify-content: center;
+      padding: 10px;
     }
   }
 
@@ -36,7 +36,9 @@
 .navigation{
 
   @media(max-width: 667px) {
-    order: 3;
+    order: 1;
+    grid-area: a;
+    margin-bottom: 10px;
   }
 }
 

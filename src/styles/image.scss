@@ -5,5 +5,9 @@
   &-wrapper{
     padding: 20px;
     border-bottom: 1px solid #000;
+
+    @media(max-width: 667px) {
+      padding: 10px;
+    }
   }
 }
