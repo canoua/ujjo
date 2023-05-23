@@ -30,6 +30,8 @@
 
   @media(max-width: 1216px) {
     padding-top: 75px;
+    background-size: cover;
+    border-bottom: 1px solid #000; 
   }
 
   @media(max-width: 1116px) {
@@ -161,6 +163,11 @@
     text-transform: uppercase;
     color: #000;
 
+    @media(max-width: 1216px) {
+      font-size: 21px;
+      line-height: 25px;
+    }
+    
     @media(max-width: 1016px) {
       font-size: 21px;
      line-height: 25px;
