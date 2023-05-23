@@ -21,52 +21,13 @@ a{
 }
 
 .container{
-  width: 1397px;
-  margin: 0 auto;
+ padding: 0 22px;
 
-  @media(max-width: 1420px) {
-    width: 1300px;
-  }
+ @media(min-width: 1440px) {
+   width: 1397px;
+   margin: 0 auto;
+ }
 
-  @media(max-width: 1316px) {
-    width: 1200px;
-  }
-
-  @media(max-width: 1216px) {
-    width: 1100px;
-  }
-
-  @media(max-width: 1116px) {
-    width: 1000px;
-  }
-
-  @media(max-width: 1016px) {
-    width: 900px;
-  }
-
-  @media(max-width: 927px) {
-    width: 830px;
-  }
-
-  @media(max-width: 850px) {
-    width: 750px;
-  }
-
-  @media(max-width: 767px) {
-    width: 700px;
-  }
-
-  @media(max-width: 717px) {
-    width: 650px;
-  }
-
-  @media(max-width: 667px) {
-    width: 600px;
-  }
-
-  @media(max-width: 600px) {
-    width: 540px;
-  }
 }
 
 .btn{
