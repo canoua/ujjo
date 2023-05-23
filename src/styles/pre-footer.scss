@@ -8,6 +8,10 @@
     height: 569px;
   }
 
+  @media(max-width: 967px) {
+    height: 508px;
+  }
+
   @media(max-width: 667px) {
     height: 344px;
   }
@@ -43,6 +47,10 @@
 
     @media(max-width: 1116px) {
       height: 710px;
+    }
+
+    @media(max-width: 967px){
+      height: 643px;
     }
 
     @media(max-width: 927px) {
