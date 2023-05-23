@@ -12,6 +12,14 @@
     height: 508px;
   }
 
+  @media(max-width: 881px) {
+    height: 470px;
+  }
+
+  @media(max-width: 827px) {
+    height: 420px;
+  }
+
   @media(max-width: 667px) {
     height: 344px;
   }
@@ -55,6 +63,10 @@
 
     @media(max-width: 927px) {
       height: 590px;
+    }
+
+    @media(max-width: 827px) {
+      height: 527px;
     }
 
     @media(max-width: 667px) {

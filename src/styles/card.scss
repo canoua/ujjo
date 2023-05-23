@@ -2,6 +2,14 @@
   border-bottom: 1px solid #000;
   padding: 20px;
 
+  @media(max-width: 900px) {
+    padding: 22px;
+  }
+
+  @media(max-width: 767px) {
+    padding: 22px 10px;
+  }
+  
   @media(max-width: 667px) {
     padding: 10px;
   }
@@ -48,8 +56,12 @@
     padding: 77px 15px 23px;
   }
 
+  @media(max-width: 883px) {
+    padding: 62px 10px 22px;
+  }
+
   @media(max-width: 767px) {
-    padding: 60px 15px 10px;
+    padding: 72px 15px 10px;
   }
 
   &__image{
