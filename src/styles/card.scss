@@ -9,6 +9,10 @@
   @media(max-width: 767px) {
     padding: 22px 10px;
   }
+
+  @media(max-width: 740px) {
+    padding-bottom: 10px;
+  }
   
   @media(max-width: 667px) {
     padding: 10px;
@@ -62,6 +66,10 @@
 
   @media(max-width: 767px) {
     padding: 72px 15px 10px;
+  }
+
+  @media(max-width: 740px) {
+    padding: 66px 15px 10px;
   }
 
   &__image{

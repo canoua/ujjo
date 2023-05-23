@@ -20,6 +20,10 @@
     height: 420px;
   }
 
+  @media(max-width: 740px) {
+    height: 384px;
+  }
+
   @media(max-width: 667px) {
     height: 344px;
   }
@@ -65,9 +69,9 @@
       height: 590px;
     }
 
-    @media(max-width: 827px) {
-      height: 527px;
-    }
+    @media(max-width: 840px) {
+      height: 485px;
+    } 
 
     @media(max-width: 667px) {
       height: 440px;

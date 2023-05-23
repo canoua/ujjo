@@ -69,6 +69,10 @@
       @media(max-width: 767px) {
         padding: 133px 155px;
       }
+
+      @media(max-width: 717px) {
+        padding: 100px 122px;
+      }
     }
 
     &__text{
@@ -118,6 +122,11 @@
 
     @media(max-width: 835px) {
       padding: 25px;
+    }
+
+    @media(max-width: 740px) {
+      padding: 20px;
+      line-height: 45px;
     }
 
     @media(max-width: 667px) {
