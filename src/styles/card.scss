@@ -82,6 +82,10 @@
     border-bottom: 1px solid #000;
   }
 
+  @media(max-width: 450px) {
+    width: 75%;
+  }
+
   &__image{
     width: 100%;
   }
@@ -208,6 +212,10 @@
   }
 
   &_3{
+
+    @media(max-width: 600px) {
+      margin-bottom: 50px;
+    }
 
     &::after{
       height: 58px;
