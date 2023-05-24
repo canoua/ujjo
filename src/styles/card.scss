@@ -13,10 +13,6 @@
   @media(max-width: 740px) {
     padding-bottom: 10px;
   }
-  
-  @media(max-width: 667px) {
-    padding: 10px;
-  }
 
   &-inner{
     display: flex;
@@ -72,6 +68,10 @@
     padding: 66px 15px 10px;
   }
 
+  @media(max-width: 677px) {
+    padding: 57px 15px 10px;
+  }
+
   &__image{
     width: 100%;
   }
@@ -92,6 +92,10 @@
         top: -12px;
         width: 40px;
       }
+
+      @media(max-width: 667px) {
+        width: 33px;
+      }
     }
   }
 
@@ -107,6 +111,10 @@
         top: -12px;
         width: 40px;
       }
+
+      @media(max-width: 667px) {
+        width: 33px;
+      }
     }
   }
 
@@ -120,6 +128,10 @@
 
       @media(max-width: 1116px) {
         height: 40px;
+      }
+
+      @media(max-width: 667px) {
+        height: 33px;
       }
     }
   }
@@ -136,6 +148,11 @@
         height: 61px;
         left: -24px;
       }
+
+      @media(max-width: 667px) {
+        height: 50px;
+        left: -18px;
+      }
     }
 
     &::after{
@@ -147,6 +164,11 @@
       @media(max-width: 1116px) {
         height: 61px;
         right: -24px;
+      }
+
+      @media(max-width: 667px) {
+        height: 50px;
+        right: -18px;
       }
     }
   }
@@ -161,6 +183,10 @@
 
       @media(max-width: 1116px) {
         height: 40px;
+      }
+
+      @media(max-width: 667px) {
+        height: 33px;
       }
     }
   }
