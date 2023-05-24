@@ -21,15 +21,15 @@ a{
 }
 
 .container{
- padding: 0 22px;
+  padding: 0 22px;
 
- @media(min-width: 1440px) {
-   width: 1397px;
-   margin: 0 auto;
+  @media(min-width: 1440px) {
+    width: 1397px;
+    margin: 0 auto;
  }
 
- @media(max-width: 767px) {
-  padding: 0 10px;
+  @media(max-width: 767px) {
+    padding: 0 10px;
  }
 }
 
@@ -67,7 +67,7 @@ a{
     @media(max-width: 667px) {
       order: 3;
       grid-area: c;
-      margin-left: 10px;
+     
     }
   }
 
@@ -79,6 +79,10 @@ a{
 
   @media(max-width: 717px) {
     padding: 11px;
+  }
+
+  @media(max-width: 641px) {
+    padding: 6px 11px;
   }
 }
 
