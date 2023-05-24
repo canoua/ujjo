@@ -28,6 +28,10 @@
     height: 344px;
   }
 
+  @media(max-width: 575px) {
+    height: 314px;
+  }
+
   &::before{
     content: '';
     position: absolute;
@@ -75,6 +79,10 @@
 
     @media(max-width: 667px) {
       height: 440px;
+    }
+
+    @media(max-width: 575px) {
+      height: 401px;
     }
   }
   
