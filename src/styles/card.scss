@@ -18,6 +18,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
+    @media(max-width: 600px) {
+      flex-direction: column;
+    }
   }
 }
 
@@ -70,6 +74,12 @@
 
   @media(max-width: 677px) {
     padding: 57px 15px 10px;
+  }
+
+  @media(max-width: 600px) {
+    width: 60%;
+    background-size: cover;
+    border-bottom: 1px solid #000;
   }
 
   &__image{
@@ -134,6 +144,26 @@
         height: 33px;
       }
     }
+
+    &::after{
+      content: '';
+      width: 33px;
+      height: 33px;
+      right: 0;
+      top: -12px;
+      background-image: url('./../images/card-1-before.svg');
+      background-size: cover;
+      display: none;
+      position: absolute;
+
+      @media(max-width: 600px) {
+        display: block;
+      }
+    }
+
+    @media(max-width: 600px) {
+      margin-bottom: 50px;
+    }
   }
 
   &_2{
@@ -171,6 +201,10 @@
         right: -18px;
       }
     }
+
+    @media(max-width: 600px) {
+      margin-bottom: 50px;
+    }
   }
 
   &_3{
@@ -187,6 +221,22 @@
 
       @media(max-width: 667px) {
         height: 33px;
+      }
+    }
+
+    &::before{
+      content: '';
+      width: 33px;
+      height: 33px;
+      left: 0;
+      top: -12px;
+      background-image: url('./../images/card-1-before.svg');
+      background-size: cover;
+      display: none;
+      position: absolute;
+
+      @media(max-width: 600px) {
+        display: block;
       }
     }
   }
